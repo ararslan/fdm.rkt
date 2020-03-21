@@ -1,9 +1,7 @@
 language: c
 os:
   - freebsd
-arch:
-  - amd64
-  - arm64
+group: dev
 addons:
   pkg:
     - racket
